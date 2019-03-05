@@ -35,6 +35,7 @@ model = DecisionTreeRegressor(random_state=1)
 model.fit(X_train, y)
 
 predictions=model.predict(X_test)
-print(predictions)
+# print(predictions)
 
-# pd.DataFrame({'Id': test_data.Id, 'SalePrice': predictions}).to_csv('submission.csv', index =False)    
+# data = pd.DataFrame({'OverallQual': [1,2],'YearBuilt':[19,0],'TotalBsmtSF':[2,2],'GrLivArea':[22,1]});
+# print(data[features])
